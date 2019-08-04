@@ -1,3 +1,3 @@
-# bootstraptest2
+# bootstraptest
 
-Describe bootstraptest2 here.
+Describe bootstraptest here.

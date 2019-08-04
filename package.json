@@ -1,7 +1,7 @@
 {
-  "name": "bootstraptest2",
+  "name": "bootstraptest",
   "version": "1.0.0",
-  "description": "Describe bootstraptest2 here",
+  "description": "Describe bootstraptest here",
   "private": true,
   "scripts": {
     "build": "nwb build-react-app",
@@ -12,7 +12,9 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
