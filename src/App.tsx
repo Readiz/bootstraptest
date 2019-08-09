@@ -1,26 +1,26 @@
-import './App.css'
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-import * as React from 'react'
-import { Container, Row, Col, Button } from 'react-bootstrap'
-
-class App extends React.Component<{}, {}> {
-  render() {
-    return <div className="App">
-      <Container>
-        <Row>
-          <Col md={2}>
-            <Button>Test Btn!</Button>
-          </Col>
-          <Col md={6}>
-            <Button>Test Btn!</Button>
-          </Col>
-          <Col md={4}>
-            <Button>Test Btn!</Button>
-          </Col>
-        </Row>
-      </Container>
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  }
+  );
 }
 
-export default App
+export default App;
